@@ -1,0 +1,23 @@
+<?php
+return [
+ 1 => ['emoji'=>'🦢','title'=>'Origami Website','tags'=>['HTML','CSS'],'type'=>'site',
+   'short'=>'An interactive website that teaches origami step by step, built around clean layout and easy navigation.',
+   'left'=>'An interactive origami website that teaches paper folding through simple steps and clear visuals.',
+   'right'=>'It focuses on clean layout, friendly navigation, and core web design principles using HTML and CSS.',
+   'cover'=>'image/origami.jpg','link'=>'origami/index.html'],
+ 2 => ['emoji'=>'🎸','title'=>'Band Performance','tags'=>['Video','Multimedia'],'type'=>'videos',
+   'short'=>'A multimedia project showcasing band performances through embedded video and an engaging layout.',
+   'left'=>'Band performance videos that highlight creativity and multimedia integration in web design.',
+   'right'=>'It shows how embedded video can be styled to improve engagement.',
+   'videos'=>[['video/jil.mp4','image/jillian.png'],['video/buwan.mp4','image/visor.jpg'],['video/genreb.mp4','image/olfu.png'],['video/chano.mp4','image/rob.png']]],
+ 3 => ['emoji'=>'🎬','title'=>'Film Projects','tags'=>['Film','Storytelling'],'type'=>'videos',
+   'short'=>'Video projects focused on storytelling and creative presentation inside a web page.',
+   'left'=>'A video presentation that demonstrates storytelling and visual communication.',
+   'right'=>'It focuses on layout, responsiveness, and proper media placement.',
+   'videos'=>[['video/coco.mp4','image/boss.png']]],
+ 4 => ['emoji'=>'🎨','title'=>'Digital Art','tags'=>['Digital Art','Design'],'type'=>'gallery',
+   'short'=>'Posters and digital artworks made with graphic tools, focused on composition and visual style.',
+   'left'=>'A collection of posters and digital designs made for different concepts and themes.',
+   'right'=>'It highlights visual creativity, layout composition, and modern design tools.',
+   'images'=>['kape','burger','sakuragi','lola','coffee','rizal','poster','rice']],
+];
